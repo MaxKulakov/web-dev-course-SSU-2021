@@ -5,3 +5,6 @@ First task:
 
 Second task:
 [Task-02_HTML-CV](https://maxkulakov.github.io/web-dev-course-SSU-2021/Task-02_HTML-CV/)
+
+Third task:
+[Task-03_CSS-Selector](https://maxkulakov.github.io/web-dev-course-SSU-2021/Task-03_CSS-Selector/)
