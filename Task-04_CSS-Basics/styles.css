@@ -4,8 +4,7 @@
 }
 
 h1{
-    width: 350px;
-    margin: auto;
+    text-align: center;
 }
 
 li {
@@ -52,8 +51,9 @@ a:visited{
 }
 
 #contact-chapter {
-    width: 270px;
+    width: 500px;
     margin: auto;    
+    text-align: center;
 }
 
 
