@@ -16,12 +16,13 @@ ul {
     padding-left: 0; 
 }
 
-a:hover{
-    color: hotpink;
-}
-
 a:visited{
     color:green
+}
+
+a:hover{
+    color: hotpink;
+    font-weight: bold;
 }
 
 .menu {
