@@ -8,3 +8,6 @@ Second task:
 
 Third task:
 [Task-03_CSS-Selector](https://maxkulakov.github.io/web-dev-course-SSU-2021/Task-03_CSS-Selector/)
+
+Fourt task:
+[Task-04_CSS-Basics](https://maxkulakov.github.io/web-dev-course-SSU-2021/Task-04_CSS-Basics/)
