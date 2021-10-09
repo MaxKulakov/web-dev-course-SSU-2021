@@ -21,7 +21,7 @@ a:visited{
 }
 
 a:hover{
-    color: hotpink;
+    color: red;
     font-weight: bold;
 }
 
