@@ -5,12 +5,51 @@
 
 body {
     font-family: 'Noto Sans', sans-serif;
+    line-height: 1.4;
     background: linear-gradient(to right, #CFDEF3, #E0EAFC); 
-    
 }
 
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 36px;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 22px;
+}
+
+header {
+    border-bottom: solid red;
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main > section {
+    width: 48%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 footer {
     border-top: solid red;
-    width: 60%;
+    text-align: center;
+}
+
+.contact-line{
+    display: flex;
+    justify-content: space-around;
 }
