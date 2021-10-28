@@ -15,3 +15,5 @@ Fourt task:
 Fifth task:
 [Task-05_CSS-CV](https://maxkulakov.github.io/web-dev-course-SSU-2021/Task-05_CSS-CV/)
 
+Sixth task:
+[Task-06_JS-Basics](https://maxkulakov.github.io/web-dev-course-SSU-2021/Task-06_JS-Basics/)
