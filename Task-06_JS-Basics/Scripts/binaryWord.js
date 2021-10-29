@@ -1,7 +1,7 @@
 function stringToBinary(str){
     var arr = [];
     for (var i = 0; i < str.length; i++) {
-        arr.push('0' + str[i].charCodeAt(0).toString(2));
+        arr.push(' 0' + str[i].charCodeAt(0).toString(2));
     }
     return arr;
 }
