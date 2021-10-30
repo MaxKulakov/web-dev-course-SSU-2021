@@ -1,7 +1,7 @@
 function stringToBinary(str){
     var arr = [];
     for (var i = 0; i < str.length; i++) {
-        arr.push(' 0' + str[i].charCodeAt(0).toString(2));
+        arr.push('0' + str[i].charCodeAt(0).toString(2));
     }
     return arr;
 }
@@ -20,9 +20,9 @@ function binaryWord(){
     console.log(str4);
     console.log(str5);
 
-    document.getElementsByClassName("results")[0].innerHTML = `man: [${str1}] <br/> 
-                                                                AB: [${str2}] <br/> 
-                                                                wecking: [${str3}] <br/> 
-                                                                Ruby: [${str4}] <br/> 
-                                                                Yosemite: [${str5}]`;
+    document.getElementsByClassName("results")[0].innerHTML = `man: [${str1.join(', ')}] <br/> 
+                                                                AB: [${str2.join(', ')}] <br/> 
+                                                                wecking: [${str3.join(', ')}] <br/> 
+                                                                Ruby: [${str4.join(', ')}] <br/> 
+                                                                Yosemite: [${str5.join(', ')}]`;
 }
