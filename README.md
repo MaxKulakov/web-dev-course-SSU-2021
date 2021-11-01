@@ -9,7 +9,7 @@ Second task:
 Third task:
 [Task-03_CSS-Selector](https://maxkulakov.github.io/web-dev-course-SSU-2021/Task-03_CSS-Selector/)
 
-Fourt task:
+Fourth task:
 [Task-04_CSS-Basics](https://maxkulakov.github.io/web-dev-course-SSU-2021/Task-04_CSS-Basics/)
 
 Fifth task:
@@ -17,3 +17,6 @@ Fifth task:
 
 Sixth task:
 [Task-06_JS-Basics](https://maxkulakov.github.io/web-dev-course-SSU-2021/Task-06_JS-Basics/)
+
+Seventh task:
+[Task-07_JS-Advanced](https://maxkulakov.github.io/web-dev-course-SSU-2021/Task-07_JS-Advanced/)
