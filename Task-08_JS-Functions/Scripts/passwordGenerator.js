@@ -39,7 +39,7 @@ function checkPassword(password) {
 }
 
 
-function passGen(arr) {
+function passGen() {
     var passwordLength = getRandomInt(6, 21);
     var password = [];
     for (var i = 0; i < passwordLength; i++) {
@@ -57,7 +57,6 @@ function passGen(arr) {
 
 function passwordGenerator() {
     var password = passGen();
-    console.log(password);
     if (password == undefined) {
         passwordGenerator();
       }
