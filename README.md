@@ -20,3 +20,6 @@ Sixth task:
 
 Seventh task:
 [Task-07_JS-Advanced](https://maxkulakov.github.io/web-dev-course-SSU-2021/Task-07_JS-Advanced/)
+
+Eighth Task:
+[Task-08_JS-Functions](https://maxkulakov.github.io/web-dev-course-SSU-2021/Task-08_JS-Functions/)
