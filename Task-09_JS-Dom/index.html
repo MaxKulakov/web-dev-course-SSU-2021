@@ -7,37 +7,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-
-    <title>Eighth Task</title>
+    <link rel="stylesheet" href="Styles/style.css">
+    <title>Ninth Task</title>
 </head>
 
 <body>
-    <button onclick="passwordGenerator()">Генератор паролей</button>
-    <button onclick="outGame()">Игра на выбывание</button>
-    <button onclick="calcFunc()">Калькулятор из функций</button> 
+    <button id="vowelsCoun" onclick="outGame()">Игра на выбывание</button> 
+    <button id="toTable" onclick="stringToTable()">Форматирование строки в таблицу</button>
+    <button id="sumSq" onclick="sumSquare()">Формула квадрата суммы</button> 
+    <button id="outG" onclick="vowelsCounting()">Подсчёт гласных</button>
+
     <div class="results"></div>
 
-    <script src="Scripts/passwordGenerator.js"></script>
+    <script src="Scripts/vowelsCounting.js"></script>
+    <script src="Scripts/stringToTable.js"></script>
+    <script src="Scripts/sumSquare.js"></script>
     <script src="Scripts/outGame.js"></script>
-    <script src="Scripts/calcFunc.js"></script>
 </body>
-
-<style>
-    body{
-        margin: 14px;
-        font-family: 'Roboto Mono', monospace;
-        font-size: 18px;
-    }
-    button{
-        margin: 14px;
-        padding: 14px;
-        font-family: 'Roboto Mono', monospace;
-        font-size: 14px;
-    }
-    .results{
-        margin: 14px;
-        line-height: 180%;
-    }
-</style>
 
 </html>

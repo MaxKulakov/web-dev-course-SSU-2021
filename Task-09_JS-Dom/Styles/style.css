@@ -1,0 +1,19 @@
+body{
+    margin: 14px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+}
+button{
+    margin: 14px;
+    padding: 14px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+}
+.results{
+    margin: 14px;
+    line-height: 180%;
+}
+
+.template{
+    color: gray;
+}

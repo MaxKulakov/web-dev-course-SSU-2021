@@ -69,6 +69,15 @@ function numToSquare(n) {
     }
 }
 
+function inputNumToSquare(){
+    var val1 = document.getElementById('input1').value;
+    document.getElementsByClassName("output")[0].innerHTML = numToSquare(parseInt(val1));
+}
+
+function clearInput(){
+    document.getElementById('input1').value = "";
+}
+
 function sumSquare(){
     var num1 = numToSquare( 0 );
     var num2 = numToSquare( 1 );
@@ -79,12 +88,26 @@ function sumSquare(){
     var num7 = numToSquare( 201 );
     var num8 = numToSquare( 3.14 );
 
-    document.getElementsByClassName("results")[0].innerHTML = `0: ${num1} <br/>
-                                                                1: ${num2} <br/>
-                                                                2: ${num3} <br/>
-                                                                -2: ${num4} <br/>
-                                                                3: ${num5} <br/>
-                                                                5: ${num6} <br/>
-                                                                201: ${num7} <br/>
-                                                                3.14: ${num8} <br/>`;
+    document.getElementsByClassName("results")[0].innerHTML = `
+    <h2>Формула квадрата суммы</h2>
+    <p>Напишите функцию, которая принимает на вход число n и возвращает 
+    строку с формулой квадрата суммы для этого числа.</p>
+    
+    <input id="input1" type="number" placeholder="Введите n">
+    <button onclick="clearInput()">Очистить ввод</button>
+    <button onclick="inputNumToSquare()">Выполнить</button>
+    
+    <div class="output"></div><br/>
+
+    <div class="template">
+        Примеры ввода-вывода: <br/>
+        0: ${num1} <br/>                                                               
+        1: ${num2} <br/>                                                               
+        2: ${num3} <br/>                                                              
+        -2: ${num4} <br/>                                                               
+        3: ${num5} <br/>                                                              
+        5: ${num6} <br/>                                                               
+        201: ${num7} <br/>                                 
+        3.14: ${num8} <br/>
+    </div>`;
 }

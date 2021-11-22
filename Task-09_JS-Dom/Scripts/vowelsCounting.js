@@ -11,6 +11,15 @@ function vowelsCount(str){
     return count;
 }
 
+function inputVowelsCounting(){
+    var val1 = document.getElementById('input1').value;
+    document.getElementsByClassName("output")[0].innerHTML = vowelsCount(val1);
+}
+
+function clearInput(){
+    document.getElementById('input1').value = "";
+}
+
 function vowelsCounting(){
     var str1 = vowelsCount( 'abracadabra' );
     var str2 = vowelsCount( 'ABRACADABRA' );
@@ -23,8 +32,23 @@ function vowelsCounting(){
     console.log(str3);
     console.log(str4);
 
-    document.getElementsByClassName("results")[0].innerHTML = `abracadabra: ${str1} <br/> 
-                                                                ABRACADABRA: ${str2} <br/> 
-                                                                o a kak ushakov lil vo kashu kakao: ${str3} <br/> 
-                                                                my pyx: ${str4}`;
+    document.getElementsByClassName("results")[0].innerHTML = `
+    <h2>Подсчёт гласных</h2>
+    <p>Напишите функцию, которая принимает на вход строку произвольных символов 
+    и возвращает число английских гласных в этой строке. 
+    Гласным считаются буквы a, e, i, o, u (но не y).</p>
+    
+    <input id="input1" type="text" placeholder="Введите строку">
+    <button onclick="clearInput()">Очистить ввод</button>
+    <button onclick="inputVowelsCounting()">Выполнить</button>
+    
+    <div class="output"></div><br/>
+
+    <div class="template">
+        Примеры ввода-вывода: <br/>
+        abracadabra: ${str1} <br/>                                                             
+        ABRACADABRA: ${str2} <br/>                                                             
+        o a kak ushakov lil vo kashu kakao: ${str3} <br/>                                                             
+        my pyx: ${str4}
+    </div>`;
 }
