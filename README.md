@@ -18,4 +18,4 @@
 
 [Task-09_JS-Dom](https://maxkulakov.github.io/web-dev-course-SSU-2021/Task-09_JS-Dom/)
 
-[Task-10_Browser-Game](https://maxkulakov.github.io/web-dev-course-SSU-2021/Task-10_Browser-Game/)
+[Task-10_Browser-Game](https://maxkulakov.github.io/web-dev-course-SSU-2021/Task-10_Browser-Game/index.html)
