@@ -15,9 +15,11 @@ Webpack - HTML, SCSS, JS
 4. src/scss – styles
 5. src/img – assets images and sprites
 ### How run
-1. ```npm run dev``` to run game
-2. ```npm run build``` to build project
-3. ```npm run production``` to build production version game
+1. Open termianl
+2. ```cd web-dev-course-SSU-2021/Task-10_Browser-Game``` to go to the project folder
+3. ```npm run dev``` to run game
+4. ```npm run build``` to build project
+5. ```npm run production``` to build production version game
 
 
 
