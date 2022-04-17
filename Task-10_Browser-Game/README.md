@@ -9,15 +9,15 @@ Hold left mouse button to up slider
 ### Techologies
 Webpack - HTML, SCSS, JS
 ### Sctruct
-index.html – dublicate file to start with defaul github pages preset
-src/index.html – base web page
-src/js – scripts
-src/scss – styles
-src/img – assets images and sprites
+1. index.html – dublicate file to start with defaul github pages preset
+2. src/index.html – base web page
+3. src/js – scripts
+4. src/scss – styles
+5. src/img – assets images and sprites
 ### How run
-```npm run dev``` to run game
-```npm run build``` to build project
-```npm run production``` to build production version game
+1. ```npm run dev``` to run game
+2. ```npm run build``` to build project
+3. ```npm run production``` to build production version game
 
 
 
